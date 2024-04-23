@@ -2,16 +2,18 @@
 
 import clsx from 'clsx';
 
-type Location = 'center' | 'left' | 'right';
+type Location = 'center'
+  | 'left'
+  | 'right';
 
 export function Divider({
-  className,
   text,
+  className,
   location = 'center',
   children
 }: {
-  readonly className?: string,
   readonly text?: string,
+  readonly className?: string,
   readonly location?: Location,
   readonly children?: React.ReactNode
 }) {
@@ -32,7 +34,7 @@ export function Divider({
         )}>
           <span
             className={clsx(
-              "bg-white dark:bg-zinc-950 px-2 text-sm text-zinc-700 dark:text-zinc-200"
+              "bg-white dark:bg-zinc-950 px-2 text-sm text-zinc-900 dark:text-zinc-100"
             )}
           >
             {children || text}
