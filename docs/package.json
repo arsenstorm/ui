@@ -1,9 +1,9 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
+  "name": "ui-docs",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
+    "dev": "next dev --port 2500",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
